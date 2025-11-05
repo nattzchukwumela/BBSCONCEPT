@@ -174,10 +174,16 @@ export default function BarbershopWebsite() {
         <section className="service-hours">
           <div className="hours-container">
             <div className="hours-content">
-              <div className="placeholder-img" style={{ height: "300px" }}>
-                <div className="placeholder-icon">🛠️</div>
-                <p>Tools Image Placeholder</p>
-              </div>
+              {/*<div className="placeholder-img" >*/}
+              {/*<div className="placeholder-icon">🛠️</div>
+                <p>Tools Image Placeholder</p>*/}
+              <img
+                src="public/img/equipment/price.jpg"
+                alt="a barbing equipment image"
+                className="placeholder-img"
+                style={{ height: "300px" }}
+              />
+              {/*</div>*/}
               <div className="hours-text">
                 <h3>Service Hours</h3>
                 <p>
