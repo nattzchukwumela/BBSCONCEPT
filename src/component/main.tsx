@@ -101,8 +101,13 @@ export default function BarbershopWebsite() {
               </div>
             </div>
             <div className="placeholder-img">
-              <div className="placeholder-icon">✂️</div>
-              <p>Hero Image Placeholder</p>
+              {/*<div className="placeholder-icon">✂️</div>*/}
+              {/*<p>Hero Image Placeholder</p>*/}
+              <img
+                src="/img/bg/carousel.jpg"
+                className="placeholder-img hero-image"
+                alt="hero image"
+              />
             </div>
           </div>
         </section>
