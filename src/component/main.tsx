@@ -1,11 +1,11 @@
-import { useRef } from "react";
+import React, { useRef } from "react";
 
 export default function BarbershopWebsite() {
   const homeRef = useRef(null);
   const servicesRef = useRef(null);
   const footerRef = useRef(null);
 
-  const scrollToSection = (ref) => {
+  const scrollToSection = (ref: React.RefObject<HTMLElement | null>) => {
     ref.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
