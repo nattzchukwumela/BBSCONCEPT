@@ -1,7 +1,15 @@
-import React, { useState } from "react";
+import { useState, useRef } from "react";
 
 export default function BarbershopWebsite() {
   const [activeSection, setActiveSection] = useState("home");
+
+  const homeRef = useRef(null);
+  const servicesRef = useRef(null);
+  const footerRef = useRef(null);
+
+  const scrollToSection = (ref) => {
+    ref.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
 
   const services = [
     {
@@ -55,34 +63,44 @@ export default function BarbershopWebsite() {
             <div className="nav-links">
               <button
                 className="nav-btn"
-                onClick={() => setActiveSection("home")}
+                onClick={() => {
+                  setActiveSection("home");
+                  scrollToSection(homeRef);
+                }}
               >
                 Home
               </button>
               <button
                 className="nav-btn"
-                onClick={() => setActiveSection("service")}
+                onClick={() => {
+                  setActiveSection("service");
+                  scrollToSection(servicesRef);
+                }}
               >
                 Service
               </button>
               <button
                 className="nav-btn"
-                onClick={() => setActiveSection("contact")}
+                onClick={() => {
+                  setActiveSection("contact");
+                  scrollToSection(footerRef);
+                }}
               >
                 Contact Us
               </button>
-              <button
+              <a
+                href="tel:+2348101543632"
                 className="nav-btn"
-                onClick={() => setActiveSection("home-service")}
+                style={{ textDecoration: "none", display: "inline-block" }}
               >
                 Home Service
-              </button>
+              </a>
             </div>
           </div>
         </nav>
 
         {/* Hero Section */}
-        <section className="hero">
+        <section className="hero" ref={homeRef}>
           <div className="hero-container">
             <div className="hero-content">
               <h1>Luxury Haircut at affordable price</h1>
@@ -101,8 +119,6 @@ export default function BarbershopWebsite() {
               </div>
             </div>
             <div className="placeholder-img">
-              {/*<div className="placeholder-icon">✂️</div>*/}
-              {/*<p>Hero Image Placeholder</p>*/}
               <img
                 src="/img/bg/carousel.jpg"
                 className="placeholder-img hero-image"
@@ -152,7 +168,7 @@ export default function BarbershopWebsite() {
         </section>
 
         {/* Services */}
-        <section className="services">
+        <section className="services" ref={servicesRef}>
           <div className="section-container">
             <div className="services-header">
               <button className="services-btn">Services</button>
@@ -174,16 +190,12 @@ export default function BarbershopWebsite() {
         <section className="service-hours">
           <div className="hours-container">
             <div className="hours-content">
-              {/*<div className="placeholder-img" >*/}
-              {/*<div className="placeholder-icon">🛠️</div>
-                <p>Tools Image Placeholder</p>*/}
               <img
                 src="public/img/equipment/price.jpg"
                 alt="a barbing equipment image"
                 className="placeholder-img"
                 style={{ height: "300px" }}
               />
-              {/*</div>*/}
               <div className="hours-text">
                 <h3>Service Hours</h3>
                 <p>
@@ -205,22 +217,23 @@ export default function BarbershopWebsite() {
         </section>
 
         {/* Footer */}
-        <footer className="footer">
+        <footer className="footer" ref={footerRef}>
           <div className="footer-container">
-            <div className="footer-section">
-              <h4>Quick Links</h4>
-              <div className="footer-links">
-                <button className="footer-btn">Home</button>
-                <button className="footer-btn">Service</button>
-                <button className="footer-btn">Home Service</button>
+            <div className="footer-section footer-about">
+              <div className="footer-logo">
+                <span className="logo-text">BBS</span>
+                <span className="logo-sub">Concepts</span>
               </div>
+              <p className="footer-description">
+                Your trusted barbershop for luxury haircuts at affordable
+                prices. We bring style, precision, and care to every client.
+              </p>
+              <p className="footer-tagline">"Where Style Meets Excellence"</p>
             </div>
 
             <div className="footer-section">
               <h4>Follow Us</h4>
-              <p className="footer-text">
-                Follow us on our social media handles
-              </p>
+              <p className="footer-text">Connect with us on social media</p>
               <div className="footer-links">
                 <button className="social-btn facebook-btn">
                   <span>f</span> Facebook
@@ -252,6 +265,9 @@ export default function BarbershopWebsite() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="footer-bottom">
+            <p>© 2024 BBS Concepts. All rights reserved.</p>
           </div>
         </footer>
       </div>
