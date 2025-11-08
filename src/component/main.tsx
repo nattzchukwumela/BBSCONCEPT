@@ -1,8 +1,6 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 
 export default function BarbershopWebsite() {
-  const [activeSection, setActiveSection] = useState("home");
-
   const homeRef = useRef(null);
   const servicesRef = useRef(null);
   const footerRef = useRef(null);
@@ -64,7 +62,6 @@ export default function BarbershopWebsite() {
               <button
                 className="nav-btn"
                 onClick={() => {
-                  setActiveSection("home");
                   scrollToSection(homeRef);
                 }}
               >
@@ -73,7 +70,6 @@ export default function BarbershopWebsite() {
               <button
                 className="nav-btn"
                 onClick={() => {
-                  setActiveSection("service");
                   scrollToSection(servicesRef);
                 }}
               >
@@ -82,7 +78,6 @@ export default function BarbershopWebsite() {
               <button
                 className="nav-btn"
                 onClick={() => {
-                  setActiveSection("contact");
                   scrollToSection(footerRef);
                 }}
               >
