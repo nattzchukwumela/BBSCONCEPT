@@ -116,7 +116,7 @@ export default function BarbershopWebsite() {
             </div>
             <div className="placeholder-img">
               <img
-                src="/public/carousel.jpg"
+                src="/carousel.jpg"
                 className="placeholder-img hero-image"
                 alt="hero image"
               />
@@ -134,19 +134,19 @@ export default function BarbershopWebsite() {
                   quote:
                     "Your hair is more than just strands; it's a living tapestry woven with your experiences, memories, and your own unique spirit. We don't just cut hair; we here you tell your story through it and nurture it with care tailored to your own style, own your dream.",
                   author: "~BBS Concepts~",
-                  img: "public/BBC_IMG/001.jpg",
+                  img: "/BBC_IMG/001.jpg",
                 },
                 {
                   quote:
                     "More than just strands, it's an expression of your inner artist. We provide the canvas, the tools, and the expertise to help you craft a masterpiece that radiates both confidence and individuality. Step into our salon ready to transform, and leave ready to conquer your truly life.",
                   author: "~BBS Concepts~",
-                  img: "public/BBC_IMG/002.jpg",
+                  img: "/BBC_IMG/002.jpg",
                 },
                 {
                   quote:
                     "Escape the everyday hustle and bustle and indulge in a transformative cut that transcends the ordinary. Step into our sanctuary where our expert guided hands and soothing products work their magic. Let our artists craft a style that not only reflects your inner peace and leaves you feeling pampered and revitalized.",
                   author: "~BBS Concepts~",
-                  img: "public/BBC_IMG/003.jpg",
+                  img: "/BBC_IMG/003.jpg",
                 },
               ].map((testimonial, idx) => (
                 <div key={idx} className="testimonial-card">
@@ -187,7 +187,7 @@ export default function BarbershopWebsite() {
           <div className="hours-container">
             <div className="hours-content">
               <img
-                src="/public/price.jpg"
+                src="/price.jpg"
                 alt="a barbing equipment image"
                 className="placeholder-img"
                 style={{ height: "300px" }}
