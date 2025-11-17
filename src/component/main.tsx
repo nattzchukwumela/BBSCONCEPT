@@ -116,7 +116,7 @@ export default function BarbershopWebsite() {
             </div>
             <div className="placeholder-img">
               <img
-                src="/carousel.jpg"
+                // src="/carousel.jpg"
                 className="placeholder-img hero-image"
                 alt="hero image"
               />
