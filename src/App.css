@@ -423,6 +423,9 @@ body {
 .facebook-btn:hover {
     background: #1664d9;
 }
+.whatsapp-btn {
+    background: #075e54;
+}
 
 .instagram-btn {
     background: linear-gradient(
