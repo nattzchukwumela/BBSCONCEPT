@@ -116,7 +116,7 @@ export default function BarbershopWebsite() {
             </div>
             <div className="placeholder-img">
               <img
-                src="/img/bg/carousel.jpg"
+                src="/public/carousel.jpg"
                 className="placeholder-img hero-image"
                 alt="hero image"
               />
@@ -187,7 +187,7 @@ export default function BarbershopWebsite() {
           <div className="hours-container">
             <div className="hours-content">
               <img
-                src="public/img/equipment/price.jpg"
+                src="/public/price.jpg"
                 alt="a barbing equipment image"
                 className="placeholder-img"
                 style={{ height: "300px" }}
