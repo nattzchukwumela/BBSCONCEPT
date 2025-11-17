@@ -232,10 +232,23 @@ export default function BarbershopWebsite() {
               <p className="footer-text">Connect with us on social media</p>
               <div className="footer-links">
                 <button className="social-btn facebook-btn">
-                  <span>f</span> Facebook
+                  <a
+                    style={{ color: "white" }}
+                    href="https://www.facebook.com/people/BBS-concept/100082853396562/"
+                    target="_blank"
+                  >
+                    <span>f</span> Facebook
+                  </a>
                 </button>
+
                 <button className="social-btn instagram-btn">
-                  <span>📷</span> Instagram
+                  <a
+                    style={{ color: "white" }}
+                    href="https://www.instagram.com/bbsconcept001?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank"
+                  >
+                    <span>📷</span> Instagram
+                  </a>
                 </button>
               </div>
             </div>
