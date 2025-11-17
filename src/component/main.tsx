@@ -246,7 +246,7 @@ export default function BarbershopWebsite() {
                 <button className="social-btn whatsapp-btn">
                   <a
                     style={{ color: "white" }}
-                    href="https://l.facebook.com/l.php?u=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D%252B2348101543632%26context%3DAfdcLqvr9wgmX8jIHd806RgyLt1s94uJRu2PYqRz4iZUrUTSBMOklb29ml3LFNk-oO-uJGY5ISu6H18AZXEoWO2GNnLLs2c2ivCY3wZ1A12Ovex15_f-0yvsuWOVD-D4W6MVngOX2Zra4iWKjqm3t6v-tQ%26source%3DFB_Page%26app%3Dfacebook%26entry_point%3Dpage_cta%26fbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExMXZCSjZ2RVJ1Wkd6eWlkY3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIIY2FsbHNpdGUBMgABHusdmezq6M4wjC1hXEJS7xqcZMqx4bhBULWoLh0Z_BXuqjeV5e_Ls-Ma7WJR_aem_SUGTIeeWmiektItgnpfuGA&h=AT0t_ZTVSOKB8MPWbyYnfeDuwBIQmk_t32dMznU6ChwpwJbc6qx_Ta7ra2wIJHKDACLM5GJctiQnMvi4KiAnyzGkJzfzV0WRE1NSvoILzzZPxyNLsQ_5b_TQ4sdNZA"
+                    href="https://wa.me/qr/QT4RXTHOZ4DTK1"
                     target="_blank"
                   >
                     <span>📞 </span> WhatsApp
@@ -273,7 +273,7 @@ export default function BarbershopWebsite() {
                 </div>
                 <div className="contact-item">
                   <span className="icon">✉️</span>
-                  <p>thebbsyourview@gmail.com</p>
+                  <p>blessinglawson410@gmail.com</p>
                 </div>
               </div>
             </div>
