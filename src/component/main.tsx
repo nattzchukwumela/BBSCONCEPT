@@ -103,13 +103,14 @@ export default function BarbershopWebsite() {
                 <div className="info-item">
                   <span className="icon">📍</span>
                   <p>
-                    Bladel Fuel Station, Iwofe Road UoE, Rumuritameni Port
-                    Harcourt Rivers State.
+                    Biddel Oil and Gas LMT, Along Iwofe Road UOE, Besides
+                    Jackmino Lounge, Rumorulmeni Port Harcourt Harcourt Rivers
+                    State.
                   </p>
                 </div>
                 <div className="info-item">
                   <span className="icon">📞</span>
-                  <p>Call us +2348 1011 543432</p>
+                  <p>Call us +234 8101543632, +234 9157663487</p>
                 </div>
               </div>
             </div>
@@ -133,19 +134,19 @@ export default function BarbershopWebsite() {
                   quote:
                     "Your hair is more than just strands; it's a living tapestry woven with your experiences, memories, and your own unique spirit. We don't just cut hair; we here you tell your story through it and nurture it with care tailored to your own style, own your dream.",
                   author: "~BBS Concepts~",
-                  img: "public/img/service/show-off/Square37.jpg",
+                  img: "public/BBC_IMG/001.jpg",
                 },
                 {
                   quote:
                     "More than just strands, it's an expression of your inner artist. We provide the canvas, the tools, and the expertise to help you craft a masterpiece that radiates both confidence and individuality. Step into our salon ready to transform, and leave ready to conquer your truly life.",
                   author: "~BBS Concepts~",
-                  img: "public/img/service/show-off/Square32.jpg",
+                  img: "public/BBC_IMG/002.jpg",
                 },
                 {
                   quote:
                     "Escape the everyday hustle and bustle and indulge in a transformative cut that transcends the ordinary. Step into our sanctuary where our expert guided hands and soothing products work their magic. Let our artists craft a style that not only reflects your inner peace and leaves you feeling pampered and revitalized.",
                   author: "~BBS Concepts~",
-                  img: "public/img/service/show-off/Square33.jpg",
+                  img: "public/BBC_IMG/003.jpg",
                 },
               ].map((testimonial, idx) => (
                 <div key={idx} className="testimonial-card">
@@ -246,13 +247,14 @@ export default function BarbershopWebsite() {
                 <div className="contact-item">
                   <span className="icon">📍</span>
                   <p>
-                    Bladel Fuel Station, Iwofe Road UoE, Rumuritameni Port
-                    Harcourt Rivers State.
+                    Biddel Oil and Gas LMT, Along Iwofe Road UOE, Besides
+                    Jackmino Lounge, Rumorulmeni Port Harcourt Harcourt Rivers
+                    State.
                   </p>
                 </div>
                 <div className="contact-item">
                   <span className="icon">📞</span>
-                  <p>Call us +2348 1011 543432</p>
+                  <p>Call us +234 8101543632, +234 9157663487</p>
                 </div>
                 <div className="contact-item">
                   <span className="icon">✉️</span>

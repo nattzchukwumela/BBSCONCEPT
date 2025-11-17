@@ -183,11 +183,13 @@ body {
     justify-content: center;
     flex-direction: column;
     color: #666;
+    width: fit-content;
+    margin-inline: auto;
 }
 
 .img-container {
     height: 100%;
-    width: 100%;
+    width: 250px;
     overflow: hidden;
 }
 
